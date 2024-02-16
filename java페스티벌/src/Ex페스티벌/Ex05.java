@@ -19,12 +19,11 @@ public class Ex05 {
 //		}
 //		
 //		
-		
+
 //		for(char ap = 'a'; ap <= 'z'; ap++) {
 //			System.out.println(ap);
 //		}
-		
-		
+
 //		String score ="A,A,B,C,D,A,C,D,D,D,F";
 //		String[] strarr = score.split(",");
 //		int[] arr = new int[5];
@@ -43,8 +42,7 @@ public class Ex05 {
 //			System.out.println(apb[i] +" : "+ arr[i]);
 //		}
 //		
-		
-		
+
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("base 입력해주세요 : ");
 //		int base =sc.nextInt();
@@ -57,8 +55,7 @@ public class Ex05 {
 //			
 //		}
 //		System.out.println("결과확인 : " + mul);
-		
-		
+
 //		System.out.print("현재몸무게 입력해주세요 : ");
 //		int now_wig = sc.nextInt();
 //		System.out.print("목표몸무게 입력해주세요 : ");
@@ -77,7 +74,7 @@ public class Ex05 {
 //			  break;
 //			}
 //		}
-		
+
 //		System.out.print("정수 입력해주세요 : ");
 //		int num = sc.nextInt();
 //		
@@ -87,36 +84,33 @@ public class Ex05 {
 //			num = num - (num % 10);
 //		}
 //		System.out.println(num);
-		
-		
-		
-//		System.out.print("정수 입력해주세요 : ");
-//		int n = sc.nextInt();
-//		
-//		int[][] arr = new int[n][n];
-//		int cnt = 1;
-		
-//		// 입력부
-//		for(int i = 0; i < n; i++) {
-//			for(int j = 0; j < n; j++) {
-//				arr[i][j] = cnt;
-//				System.out.printf("%4d",arr[i][j]);
-//				cnt++;
-//			}
-//			System.out.println();
-//		}
-//		System.out.println();
-//		
-//		// 출력부		
-//		for(int i = 0; i < n; i++) {
-//			for(int j = 0; j < n ; j++) {
-//				System.out.printf("%4d",arr[j][i]);
-//				cnt++;
-//			}
-//			System.out.println();
-//		}
-		
-		
+
+		System.out.print("정수 입력해주세요 : ");
+		int n = sc.nextInt();
+
+		int[][] arr = new int[n][n];
+		int cnt = 1;
+
+		// 입력부
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				arr[i][j] = cnt;
+				System.out.printf("%4d", arr[i][j]);
+				cnt++;
+			}
+			System.out.println();
+		}
+		System.out.println();
+
+		// 출력부
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				System.out.printf("%4d", arr[j][i]);
+				cnt++;
+			}
+			System.out.println();
+		}
+
 //		int[] lotto = new int[6];
 //		Random rd = new Random();
 //		
@@ -135,7 +129,7 @@ public class Ex05 {
 //		for(int x : lotto) {
 //			System.out.println("행운의숫자 : "+ x);
 //		}
-		
+
 //		System.out.print("정수n 입력해주세요 : ");
 //		int n = sc.nextInt();
 //		System.out.print("정x 입력해주세요 : ");
@@ -153,8 +147,7 @@ public class Ex05 {
 //				System.out.print(t+ " ");
 //			}
 //		}
-		
-		
+
 //		System.out.print("정수n 입력해주세요 : ");
 //		int num = sc.nextInt();
 //		
@@ -164,9 +157,7 @@ public class Ex05 {
 //			}
 //			System.out.println();
 //		}
-		
-		
-		
+
 //		System.out.print("정수 입력해주세요 : ");
 //		int n = sc.nextInt();
 ////		
@@ -202,8 +193,7 @@ public class Ex05 {
 //			}
 //			
 //		}
-		
-		
+
 //		for(int i =0; i <5; i++) {
 //			for(int j =5; j <i; j++) {
 //				System.out.print(" ");
@@ -218,7 +208,7 @@ public class Ex05 {
 //			System.out.println();
 //		}
 //		
-		
+
 //		String str ="01001101";
 //		String[] strarr = str.split("");
 // 		int multi = 1;
@@ -231,8 +221,7 @@ public class Ex05 {
 //		
 //		
 //		System.out.println(str + "(2) : " + sum + "(10)");
-		
-		
+
 //		System.out.print("정수 입력해주세요 : ");
 //		int mony = sc.nextInt();
 //		int change = mony;
@@ -263,44 +252,37 @@ public class Ex05 {
 //		System.out.println( "5000원 : "+ h+ "개");
 //		System.out.println( "1000원 : "+ u+ "개");
 //		System.out.println( "10000원 : "+ t+ "개");
-		
-		
-		
+
 //		System.out.print("1번째 정수 입력해주세요 : ");
 //		int num1= sc.nextInt();
 //		System.out.print("1번째 정수 입력해주세요 : ");
 //		int num2= sc.nextInt();
-		
+
 //		 System.out.println(ck(4,3)); 
-		
-		int[] arr =new int[5];
-		for(int i =0; i< 5; i++) {
-			arr[i] =sc.nextInt();
+
+		int[] arr = new int[5];
+		for (int i = 0; i < 5; i++) {
+			arr[i] = sc.nextInt();
 		}
-		
-		int first=arr[0];
-		for(int i =1; i< 5; i++) {
-			if(i ==4) {break;}
-			if(arr[i] > arr[i+1]) {
-				arr[i+1] = arr[i];
+
+		int first = arr[0];
+		for (int i = 1; i < 5; i++) {
+			if (i == 4) {
+				break;
+			}
+			if (arr[i] > arr[i + 1]) {
+				arr[i + 1] = arr[i];
 			}
 		}
-		for(int x: arr) {
+		for (int x : arr) {
 			System.out.println(x);
-					
+
 		}
-		
-	
-		
-		
-		
+
 	}
-	
+
 //	public static boolean ck (int a, int b) {
 //	  return a%b == 0? true: false;		 
 //	}
-	 
-	
-	
 
 }
