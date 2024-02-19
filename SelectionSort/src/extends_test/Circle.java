@@ -25,7 +25,7 @@ public class Circle extends Shape{
 		// 런타임 과정에서 Shape 부모클래스 객체를 Circle 자식클래스에 담을수 없음!. 을 알게되고 런타임 에러가 나오게 되는것!.
 		
 		Shape uu = sub2;
-// 		System.out.println(uu.age);  Shape로 만든 객ㅁ체 에는 age가 없음. 그래서 에러남!.
+// 		System.out.println(uu.age);  Shape로 만든 객체 에는 age가 없음. 그래서 에러남!.
 		
 		
 		
